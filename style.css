@@ -44,6 +44,7 @@ a{
     justify-content: space-between;
     align-content: center;
     background-color: rgb(31, 31, 31);
+    column-gap: 50px;
 }
 
 /* OPTIONS-SECTION */
@@ -80,8 +81,7 @@ a{
 
 /* CALL-NAV-BAR */
 .call-nav-bar_icons{
-    height: 85px;
-    border: 1px solid turquoise;  
+    height: 70px;
     display: flex;
     flex-direction: row;
     column-gap: 15px;
@@ -90,7 +90,7 @@ a{
 }
 .call-nav-bar_icons i{
    line-height: 50px;
-   font-size: 40px;
+   font-size: 30px;
    color: white;
 }
 .chevron-wrapper i{
@@ -104,9 +104,20 @@ a{
     align-items: center;
     color: white;
 }
-.icons-wrapper:hover{
+.icons-wrapper a i:hover{
     color: rgb(92, 255, 92);
 }
-i:hover{
+.chevron-wrapper i:hover{
     color: rgb(92, 255, 92);
+}
+
+#end-meeting-button{
+    height: 70px;
+    background-color: rgb(63, 63, 63);
+    color: rgba(255, 0, 0, 0.507);
+    text-align: center;
+    padding: 25px;
+}
+#end-meeting-button:hover{
+    color: rgb(255, 0, 0);
 }
