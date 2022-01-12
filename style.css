@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    color: currentColor;
+    text-decoration: none;
+}
+/* BODY LAYOUT */
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.options-section{
+    height: 30px;
+    /* border: 1px solid red; */
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+.main-content{
+    flex-grow: 1;
+    background-color: black;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    justify-content: space-around;
+    align-content: space-around;
+    row-gap: 25px;
+}
+
+.call-nav-bar{
+    height: 85px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    background-color: rgb(31, 31, 31);
+}
+
+/* OPTIONS-SECTION */
+.options-section_buttons{
+    padding-right: 5px;
+}
+.options-section_buttons button{
+    background-color: rgb(48, 48, 48);
+    border: none;
+    border-radius: 8px;
+    color: white;
+    line-height: 25px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.options-section_buttons button:hover{
+    color: rgb(92, 255, 92);
+}
+
+/* MAIN-CONTENT */    
+.user-img{
+    position: relative;
+    width: 190px;
+    height: 130px;
+    }
+.user-name{
+    color: white;
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 4px;
+    font-size: 13px;    
+}
+
+/* CALL-NAV-BAR */
+.call-nav-bar_icons{
+    height: 85px;
+    border: 1px solid turquoise;  
+    display: flex;
+    flex-direction: row;
+    column-gap: 15px;
+    align-items: center;
+
+}
+.call-nav-bar_icons i{
+   line-height: 50px;
+   font-size: 40px;
+   color: white;
+}
+.chevron-wrapper i{
+    line-height: 50px;
+    font-size: 14px;
+    color: white;
+}
+.icons-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+.icons-wrapper:hover{
+    color: rgb(92, 255, 92);
+}
+i:hover{
+    color: rgb(92, 255, 92);
+}
