@@ -112,10 +112,8 @@ a{
 }
 
 #end-meeting-button{
-    height: 70px;
     background-color: rgb(63, 63, 63);
     color: rgba(255, 0, 0, 0.507);
-    text-align: center;
     padding: 25px;
 }
 #end-meeting-button:hover{
